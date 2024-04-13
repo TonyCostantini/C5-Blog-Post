@@ -1,12 +1,17 @@
 /* Add screen styles below */
+:root {
+    --font-family: Helvetica, Arial, sans-serif;
+}
+
 body {
+    font-family: var(--font-family);
     background-color: #F0F0F0;
     margin: 0 auto;
 }
 
 nav {
     /* Box Settings */
-    background-color: #000;
+    background-color: #4572BA;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.12);
     /* Section Settings */
     display: flex;
@@ -15,14 +20,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     color: #FFF;
-    font-family: Inter, sans-serif;
     font-size: 24px;
     font-weight: 700;
 }
 
 a {
     color: #FFF;
-    font-family: Inter, sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
@@ -31,7 +34,7 @@ a {
 
 .top-header {
     /* Image Settings */
-    background: url(images/image2.jpg) lightgray 50%;
+    background: url(images/modern.png) gray 50%;
     background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,7 +60,6 @@ a {
 h1 {
     margin: 0;
     color: #FFF;
-    font-family: Inter, sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -67,7 +69,6 @@ h1 {
 h6 {
     margin: 0;
     color: #FFF;
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -75,8 +76,8 @@ h6 {
 }
 
 p {
+    margin: 0;
     color: #000;
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
